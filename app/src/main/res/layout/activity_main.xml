@@ -4,24 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#265087"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:background="#E3B142"
         android:text="EXAMEN DE ADMISIÓN 2023"
         android:textColor="#000000"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="115dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="18dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:text="Formulario de Registro"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,44 +72,48 @@
 
     <EditText
         android:id="@+id/editTextDate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="41dp"
+        android:background="@color/white"
         android:drawableRight="@drawable/baseline_date_range_24"
         android:ems="10"
         android:inputType="date"
-        android:textColor="#0000"
-        android:textSize="14sp"
+        android:textColor="#000000"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
-        android:layout_width="237dp"
-        android:layout_height="24dp"
+        android:layout_width="300sp"
+        android:layout_height="32dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textPassword"
-        android:textColor="#0000"
-        android:textSize="14sp"
+        android:textColor="#000000"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="237dp"
-        android:layout_height="24dp"
+        android:layout_width="300sp"
+        android:layout_height="32dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="237dp"
-        android:layout_height="27dp"
+        android:layout_width="300sp"
+        android:layout_height="32dp"
+        android:background="@color/white"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textSize="14sp"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -196,10 +203,12 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_enviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
+        android:background="#E3B142"
+        android:backgroundTint="#E3B142"
         android:drawableLeft="@drawable/baseline_send_24"
         android:text="@string/button_enviar"
         app:layout_constraintStart_toStartOf="@+id/radioGroup2"
