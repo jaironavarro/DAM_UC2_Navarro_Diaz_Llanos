@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DAMUC2_NAVARRO</string>
+    <string name="checkbox_Ingenieria_de_Sistemas">Ingeniería de Sistemas</string>
+    <string name="checkbox_Ingenieria_Ambiental">Ingeniería Ambiental</string>
+    <string name="checkbox_ingenieria_mecanica">Ingeniería Mecánica</string>
+    <string name="checkbox_administracion">Administración</string>
+    <string name="checkbox_radio">Radio</string>
+    <string name="checkbox_internet">Internet</string>
+    <string name="checkbox_amigo">Amigo</string>
+    <string name="checkbox_publicidad">Publicidad</string>
+    <string name="button_enviar">Enviar</string>
+</resources>
